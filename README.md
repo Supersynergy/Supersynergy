@@ -18,7 +18,7 @@
 |---|---|---|
 | **[supercalendar](https://github.com/Supersynergy/supercalendar)** · [demo](https://big-calendar.vercel.app) | TypeScript | Modern, responsive event & schedule UI — multiple calendar views |
 | **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Rust | Fail-safe repo diagnostics for humans **and** AI coding agents |
-| **mdviewy** _(private)_ | Tauri · TS | Fast native Markdown viewer / editor |
+| **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri · TS | Fast native Markdown viewer / editor |
 
 ## 🛠 Stack
 
