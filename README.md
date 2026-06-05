@@ -12,6 +12,10 @@
 
 ---
 
+## 👋 About
+
+I build **autonomous, local-first AI systems** and the tooling around them — Rust where it must be fast, TypeScript where it must ship. I care about **systems that compound**: they run, learn, and get cheaper while you sleep. No cloud lock-in — you own the machine.
+
 ## ✨ Featured
 
 | Project | Stack | What it does |
