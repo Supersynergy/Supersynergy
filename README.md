@@ -2,7 +2,7 @@
 
 <img src="assets/supersynergy-lockup.png" width="440" alt="SuperSynergy"/>
 
-### Local-first tooling for AI coding agents
+### Tools for coding with an AI assistant, running on your own machine
 
 </div>
 
@@ -10,18 +10,20 @@
 
 ## About
 
-I build local-first tooling for AI coding agents. Token routing, long-term memory, fleet orchestration and repo diagnostics, all of it running on your own machine against your own files. Rust where speed decides, Python where shipping does.
+I build small tools for people who code with an AI assistant.
+
+They cut what the assistant costs per task, give it a memory that survives between sessions, let you watch several of them at once, and catch the kind of bug a linter walks straight past. Everything runs on your own machine, on your own files. Nothing gets uploaded.
 
 ## Featured
 
 | Project | Stack | What it does |
 |---|---|---|
-| **[agent-token-saver](https://github.com/Supersynergy/agent-token-saver)** | Python | Measured token routing for any CLI coding agent |
-| **[synapse-memory](https://github.com/Supersynergy/synapse-memory)** | Rust | Long-term memory for coding agents in a private SQLite file, with temporal truth and cited context |
-| **[agentmaster](https://github.com/Supersynergy/agentmaster)** | Rust | TUI command center for agent fleets running under Claude Code or Codex |
-| **[pum](https://github.com/Supersynergy/pum)** | Rust | Package update manager with a DuckDB freshness ledger, CLI and MCP server ([tap](https://github.com/Supersynergy/homebrew-pum)) |
-| **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri, TS | A calm, fast, local-first Markdown workspace for your own files |
-| **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Python | Fail-safe repo diagnostics for humans and AI coding agents |
+| **[agent-token-saver](https://github.com/Supersynergy/agent-token-saver)** | Python | Cuts what your coding assistant spends per task, and shows you the numbers |
+| **[synapse-memory](https://github.com/Supersynergy/synapse-memory)** | Rust | A memory your assistant can search, kept in one file on your disk. It knows when something was true and where it came from |
+| **[agentmaster](https://github.com/Supersynergy/agentmaster)** | Rust | Watch and steer several coding assistants from one terminal window |
+| **[pum](https://github.com/Supersynergy/pum)** | Rust | Shows what is out of date across 12 package managers, and never updates anything behind your back ([tap](https://github.com/Supersynergy/homebrew-pum)) |
+| **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri, TS | A quiet, fast Markdown editor that opens your own files and works offline |
+| **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Python | Finds bugs a linter cannot see, like a payment amount taken straight from the request |
 
 ## Stack
 
