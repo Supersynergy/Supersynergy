@@ -2,7 +2,7 @@
 
 # Maxim · AI Systems & Developer Tools Engineer
 
-I build tools for coding agents in Rust, Python and TypeScript. I also curate open-source software for people choosing what to build with. My collections answer questions I run into at work, from picking a model that fits a laptop to deciding how to test a faster database engine.
+I build local-first tools for coding agents. I also curate open-source software for people choosing what to build with. My collections answer questions I run into at work, from picking a model that fits a laptop to deciding how to test a faster database engine.
 
 ## Find a tool for the job
 
@@ -12,17 +12,17 @@ I build tools for coding agents in Rust, Python and TypeScript. I also curate op
 | --- | --- |
 | Choose an agent for code review or research, then see what you could run on your own hardware | [AI Agents](https://github.com/Supersynergy/awesome-ai-agents-2026) for the task. [Local AI Agents](https://github.com/Supersynergy/awesome-local-ai-agents) for runners, memory requirements and quantization. |
 | Give a coding assistant a repeatable workflow | [Agentic Coding](https://github.com/Supersynergy/awesome-agentic-coding) for hooks and tests. [Awesome Skills](https://github.com/Supersynergy/awesome-skills) for reusable skills and their format. [Awesome Prompts](https://github.com/Supersynergy/awesome-prompts) for cookbooks and ways to evaluate a prompt. |
-| Decide what to change in a slow service | [Software Gamechanger Stack](https://github.com/Supersynergy/awesome-software-gamechanger-stack) for parsers, queues and search engines. [Database Tools](https://github.com/Supersynergy/awesome-database-tools) for query performance, migrations and replication. [Server Stack](https://github.com/Supersynergy/awesome-server-stack) for proxies, caching and deployment. |
+| Decide what to change in a slow service | [Software Gamechanger Stack](https://github.com/Supersynergy/awesome-software-gamechanger-stack) to compare parsers or queues. [Database Tools](https://github.com/Supersynergy/awesome-database-tools) to investigate slow queries or plan a migration. [Server Stack](https://github.com/Supersynergy/awesome-server-stack) for edge caching and deployment. |
 | Turn a dataset into a dashboard, or show the result in a video | [CodeDesign](https://github.com/Supersynergy/awesome-codedesign) for charts, maps and diagrams. [AI Video Editing](https://github.com/Supersynergy/awesome-ai-video-editing) for editing, audio cleanup and programmable video pipelines. |
 | Build a prospecting workflow for a sales team | [AI Lead Generation](https://github.com/Supersynergy/awesome-ai-lead-generation) covers discovery, enrichment, verification, scoring and CRM integration. |
 
 <details>
 <summary>Browse all 15 catalog categories or query the data yourself</summary>
 
-- **Building software** · Languages and ecosystems, AI and agents, data and APIs, starter projects.
-- **Running software** · DevOps and cloud, self-hosting and homelabs, security and privacy, supply chain and licenses.
-- **Applying software** · Business and SaaS, research and papers, public sector.
-- **Finding other collections** · Meta-lists, best-of rankings, registries, official catalogs.
+- Building software · Languages and ecosystems, AI and agents, data and APIs, starter projects.
+- Running software · DevOps and cloud, self-hosting and homelabs, security and privacy, supply chain and licenses.
+- Applying software · Business and SaaS, research and papers, public sector.
+- Finding other collections · Meta-lists, best-of rankings, registries, official catalogs.
 
 For example, to make a reading list for a self-hosted deployment, run this from a checkout of the catalog:
 
