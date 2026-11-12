@@ -25,7 +25,7 @@ They cut what the assistant costs per task, give it a memory that survives betwe
 | **[agentmaster](https://github.com/Supersynergy/agentmaster)** | Rust | Watch and steer several coding assistants from one terminal window |
 | **[pum](https://github.com/Supersynergy/pum)** | Rust | Shows what is out of date across 12 package managers, and never updates anything behind your back ([tap](https://github.com/Supersynergy/homebrew-pum)) |
 | **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri, TS | A quiet, fast Markdown editor that opens your own files and works offline |
-| **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Python | Finds bugs a linter cannot see, like a payment amount taken straight from the request |
+| **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Rust, Python | Finds bugs a linter cannot see, like a payment amount taken straight from the request |
 
 ## Resource libraries
 
