@@ -4,7 +4,109 @@
 
 **I find where engineering workflows break down and build the tools to fix them.** My focus is coding agents. I trace a task from the first command to the passing check, looking for wasted work, missing context and failures a green status can hide.
 
-[Field notes](#field-notes) · [Open-source tool guides](#find-a-tool-for-the-job) · [Get in touch](#get-in-touch)
+[✨ Projects](#projects) · [Field notes](#field-notes) · [Open-source tool guides](#find-a-tool-for-the-job) · [Get in touch](#get-in-touch)
+
+<!-- BEGIN PROJECT GALLERY -->
+<a id="projects"></a>
+
+## ✨ 20 projects to explore
+
+A selection of my own public repositories, combining the most starred projects with specialist guides. Pick a cover to open its repository.
+
+[🧠 Agent infrastructure](#agent-infrastructure) · [🧭 Discover AI tools](#discover-ai-tools) · [📚 Skills, prompts & engineering](#skills-prompts-and-engineering) · [🎨 Creative work & practical applications](#creative-work-and-applications) · [🛠️ Desktop & coding sessions](#desktop-and-coding-sessions)
+
+<a id="agent-infrastructure"></a>
+
+### 🧠 Agent infrastructure
+
+<p>
+  <a href="https://github.com/Supersynergy/agent-token-saver"><img src="assets/projects/agent-token-saver.webp" width="360" alt="Agent Token Saver (open repository)"></a>
+  <a href="https://github.com/Supersynergy/agent-token-saver-skill-router"><img src="assets/projects/agent-token-saver-skill-router.webp" width="360" alt="Skill Router (open repository)"></a>
+  <a href="https://github.com/Supersynergy/synapse-memory"><img src="assets/projects/synapse-memory.webp" width="360" alt="Synapse Memory (open repository)"></a>
+  <a href="https://github.com/Supersynergy/superiss"><img src="assets/projects/superiss.webp" width="360" alt="Superiss (open repository)"></a>
+</p>
+
+- **[Agent Token Saver](https://github.com/Supersynergy/agent-token-saver)** · Run checks once and keep the evidence.
+- **[Skill Router](https://github.com/Supersynergy/agent-token-saver-skill-router)** · Load the few skills a task needs.
+- **[Synapse Memory](https://github.com/Supersynergy/synapse-memory)** · Search earlier decisions and their sources locally.
+- **[Superiss](https://github.com/Supersynergy/superiss)** · Coordinate task ownership and require proof before done.
+
+[↑ Back to projects](#projects)
+
+<a id="discover-ai-tools"></a>
+
+### 🧭 Discover AI tools
+
+<p>
+  <a href="https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists"><img src="assets/projects/awesome-awesome-best-of-repo-lists.webp" width="360" alt="Awesome Awesome Best of Repo Lists (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-ai-agents-2026"><img src="assets/projects/awesome-ai-agents-2026.webp" width="360" alt="AI Agents (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-local-ai-agents"><img src="assets/projects/awesome-local-ai-agents.webp" width="360" alt="Local AI Agents (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-agentic-coding"><img src="assets/projects/awesome-agentic-coding.webp" width="360" alt="Agentic Coding (open repository)"></a>
+</p>
+
+- **[Awesome Awesome Best of Repo Lists](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists)** · Start here to explore collections across fields.
+- **[AI Agents](https://github.com/Supersynergy/awesome-ai-agents-2026)** · Compare agents for coding, research and automation.
+- **[Local AI Agents](https://github.com/Supersynergy/awesome-local-ai-agents)** · Choose models and runners for your own hardware.
+- **[Agentic Coding](https://github.com/Supersynergy/awesome-agentic-coding)** · Build repeatable coding workflows with hooks and checks.
+
+[↑ Back to projects](#projects)
+
+<a id="skills-prompts-and-engineering"></a>
+
+### 📚 Skills, prompts & engineering
+
+<p>
+  <a href="https://github.com/Supersynergy/awesome-skills"><img src="assets/projects/awesome-skills.webp" width="360" alt="Awesome Skills (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-prompts"><img src="assets/projects/awesome-prompts.webp" width="360" alt="Awesome Prompts (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-software-gamechanger-stack"><img src="assets/projects/awesome-software-gamechanger-stack.webp" width="360" alt="Software Gamechanger Stack (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-codedesign"><img src="assets/projects/awesome-codedesign.webp" width="360" alt="CodeDesign (open repository)"></a>
+</p>
+
+- **[Awesome Skills](https://github.com/Supersynergy/awesome-skills)** · Find reusable agent skills and collections.
+- **[Awesome Prompts](https://github.com/Supersynergy/awesome-prompts)** · Explore prompt libraries, guides and cookbooks.
+- **[Software Gamechanger Stack](https://github.com/Supersynergy/awesome-software-gamechanger-stack)** · Compare alternatives for bottlenecks in your stack.
+- **[CodeDesign](https://github.com/Supersynergy/awesome-codedesign)** · Choose tools for charts, maps, diagrams and visual work.
+
+[↑ Back to projects](#projects)
+
+<a id="creative-work-and-applications"></a>
+
+### 🎨 Creative work & practical applications
+
+<p>
+  <a href="https://github.com/Supersynergy/awesome-ai-video-editing"><img src="assets/projects/awesome-ai-video-editing.webp" width="360" alt="AI Video Editing (open repository)"></a>
+  <a href="https://github.com/Supersynergy/awesome-ai-lead-generation"><img src="assets/projects/awesome-ai-lead-generation.webp" width="360" alt="AI Lead Generation (open repository)"></a>
+  <a href="https://github.com/Supersynergy/mdviewy"><img src="assets/projects/mdviewy.webp" width="360" alt="mdviewy (open repository)"></a>
+  <a href="https://github.com/Supersynergy/aya-neco"><img src="assets/projects/aya-neco.webp" width="360" alt="Aya Neco (open repository)"></a>
+</p>
+
+- **[AI Video Editing](https://github.com/Supersynergy/awesome-ai-video-editing)** · Find editing tools and programmable media workflows.
+- **[AI Lead Generation](https://github.com/Supersynergy/awesome-ai-lead-generation)** · Explore prospecting, enrichment and CRM workflows.
+- **[mdviewy](https://github.com/Supersynergy/mdviewy)** · Read and edit Markdown files in an offline workspace.
+- **[Aya Neco](https://github.com/Supersynergy/aya-neco)** · A research prototype for checkable community contributions.
+
+[↑ Back to projects](#projects)
+
+<a id="desktop-and-coding-sessions"></a>
+
+### 🛠️ Desktop & coding sessions
+
+<p>
+  <a href="https://github.com/Supersynergy/HeavenKey"><img src="assets/projects/HeavenKey.webp" width="360" alt="HeavenKey (open repository)"></a>
+  <a href="https://github.com/Supersynergy/ghostty-session-manager"><img src="assets/projects/ghostty-session-manager.webp" width="360" alt="Ghostty Session Manager (open repository)"></a>
+  <a href="https://github.com/Supersynergy/claude-session-restore"><img src="assets/projects/claude-session-restore.webp" width="360" alt="Claude Session Restore (open repository)"></a>
+  <a href="https://github.com/Supersynergy/agentmaster"><img src="assets/projects/agentmaster.webp" width="360" alt="Agentmaster (open repository)"></a>
+</p>
+
+- **[HeavenKey](https://github.com/Supersynergy/HeavenKey)** · A local password manager and passkeys development preview.
+- **[Ghostty Session Manager](https://github.com/Supersynergy/ghostty-session-manager)** · Save terminal tabs and restore Claude conversations.
+- **[Claude Session Restore](https://github.com/Supersynergy/claude-session-restore)** · Restore coding sessions across terminal applications.
+- **[Agentmaster](https://github.com/Supersynergy/agentmaster)** · Watch and steer several coding assistants in one terminal.
+
+[↑ Back to projects](#projects)
+
+[Browse all public repositories →](https://github.com/Supersynergy?tab=repositories&type=source)
+<!-- END PROJECT GALLERY -->
 
 ## Field notes
 
