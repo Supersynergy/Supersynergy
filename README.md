@@ -1,48 +1,21 @@
-<div align="center">
+<p align="center"><img src="assets/supersynergy-lockup.png" width="360" alt="SuperSynergy"></p>
 
-<img src="assets/supersynergy-lockup.png" width="440" alt="SuperSynergy"/>
+# Maxim · AI Systems & Developer Tools Engineer
 
-### Tools for coding with an AI assistant, running on your own machine
+I build tools for engineers who use coding agents. Most of my work starts with a problem I hit myself: a session forgets a decision, a tool sends thousands of irrelevant tokens, or a worker marks a task complete before its check passes. I work primarily in Rust, Python and TypeScript.
 
-</div>
+## Selected work
 
----
+- **Kept large attachments usable in Unsloth Studio.** When an attachment exceeded the model’s context budget, Auto mode could silently drop the entire document. My merged fix retrieves relevant passages and preserves the user’s explicit Off setting. [Unsloth PR #9630](https://github.com/unslothai/unsloth/pull/9630)
+- **Measured the token cost of a leaner Codex workflow.** I built Agent Token Saver to trim repeated context and noisy tool output. Across three tasks, the provider reported 90,364 tokens with the tool versus 112,488 at baseline (**19.67% fewer**). All three task checks passed. Each arm ran once, and one task used more tokens. [Benchmark and per-task results](https://github.com/Supersynergy/agent-token-saver#benchmarks)
+- **Improved browser automation in Moli.** Seven of my changes landed in this Rust browser. They include keeping the page loading after a startup script throws, fixing a debugger reconnect race, and reporting requests across redirects. [Script recovery](https://github.com/lexmount/moli/pull/1177) · [Reconnect fix](https://github.com/lexmount/moli/pull/2661) · [Redirect handling](https://github.com/lexmount/moli/pull/2663)
 
-## About
+## Local-first agent infrastructure
 
-I build small tools for people who code with an AI assistant.
+**Synapse Memory** gives a fresh coding session a brief drawn from earlier decisions and bug fixes. The Rust CLI keeps dated notes and their sources in one SQLite file. [Try it with your first note](https://github.com/Supersynergy/synapse-memory#first-steps)
 
-They cut what the assistant costs per task, give it a memory that survives between sessions, let you watch several of them at once, and catch the kind of bug a linter walks straight past. The tools focus on local files and workflows. Check each project’s privacy notes for optional network services and integrations.
+**Superiss** coordinates agents working on the same project. A worker claims a task, runs its acceptance check and attaches the passing result before closing it. The runnable example also shows what happens when a worker tries to close without proof. [Run the example](https://github.com/Supersynergy/superiss#try-the-complete-loop)
 
-[🧰 Developer tools](#featured) · [📚 Resource libraries](#resource-libraries) · [🛠️ Stack](#stack) · [More projects](#more)
+## Get in touch
 
-## Featured
-
-| Project | Stack | What it does |
-|---|---|---|
-| **[agent-token-saver](https://github.com/Supersynergy/agent-token-saver)** | Python | Cuts what your coding assistant spends per task, and shows you the numbers |
-| **[synapse-memory](https://github.com/Supersynergy/synapse-memory)** | Rust | A memory your assistant can search, kept in one file on your disk. It knows when something was true and where it came from |
-| **[agentmaster](https://github.com/Supersynergy/agentmaster)** | Rust | Watch and steer several coding assistants from one terminal window |
-| **[pum](https://github.com/Supersynergy/pum)** | Rust | Shows what is out of date across 12 package managers, and never updates anything behind your back ([tap](https://github.com/Supersynergy/homebrew-pum)) |
-| **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri, TS | A quiet, fast Markdown editor that opens your own files and works offline |
-| **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Rust, Python | Finds bugs a linter cannot see, like a payment amount taken straight from the request |
-
-## Resource libraries
-
-- [🌟 Awesome Awesome Best of Repo Lists](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists): the central directory of curated lists and rankings.
-- [🧠 Awesome Skills](https://github.com/Supersynergy/awesome-skills): agent skills, collections and the open skills format.
-- [💬 Awesome Prompts](https://github.com/Supersynergy/awesome-prompts): prompt libraries, guides and cookbooks.
-- [🤖 AI agents](https://github.com/Supersynergy/awesome-ai-agents-2026): agents, frameworks and infrastructure, with dated research.
-
-## Stack
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-
-## More
-
-The [repository list](https://github.com/Supersynergy?tab=repositories) holds the rest: shell tooling, local-AI experiments, and curated `awesome-*` lists. Anything marked as a fork is someone else's work that I build on.
+For engineering roles or collaborations in AI infrastructure, developer tooling or local-first software, [start a conversation on my profile repository](https://github.com/Supersynergy/Supersynergy/issues/new). This is public, so a role link and a way for me to reply are enough.
