@@ -2,9 +2,37 @@
 
 # Maxim · AI Systems & Developer Tools Engineer
 
-I build local-first tools in Rust, Python and TypeScript. My work on coding agents started with three questions. What did this task cost? What should the next session remember? How can another engineer check that the work is done?
+I build tools for coding agents in Rust, Python and TypeScript. I also curate open-source software for people choosing what to build with. My collections answer questions I run into at work, from picking a model that fits a laptop to deciding how to test a faster database engine.
 
-I also maintain **Awesome Awesome Best of Repo Lists**, a catalog of **967 entries across 15 categories**, with reading guides in **18 languages**. Browse the lists by subject or query the JSONL dataset for a shortlist of your own. [Explore the catalog](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists) · [Query the data](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists/blob/main/CATALOG.md)
+## Find a tool for the job
+
+**Start with [Awesome Awesome Best of Repo Lists](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists)** if you’re exploring a field. It indexes 967 entries in 15 categories and has editions in 18 languages. For a specific decision, pick one of my specialist guides below.
+
+| What are you trying to do? | Where I’d start |
+| --- | --- |
+| Choose an agent for code review or research, then see what you could run on your own hardware | [AI Agents](https://github.com/Supersynergy/awesome-ai-agents-2026) for the task. [Local AI Agents](https://github.com/Supersynergy/awesome-local-ai-agents) for runners, memory requirements and quantization. |
+| Give a coding assistant a repeatable workflow | [Agentic Coding](https://github.com/Supersynergy/awesome-agentic-coding) for hooks and tests. [Awesome Skills](https://github.com/Supersynergy/awesome-skills) for reusable skills and their format. [Awesome Prompts](https://github.com/Supersynergy/awesome-prompts) for cookbooks and ways to evaluate a prompt. |
+| Decide what to change in a slow service | [Software Gamechanger Stack](https://github.com/Supersynergy/awesome-software-gamechanger-stack) for parsers, queues and search engines. [Database Tools](https://github.com/Supersynergy/awesome-database-tools) for query performance, migrations and replication. [Server Stack](https://github.com/Supersynergy/awesome-server-stack) for proxies, caching and deployment. |
+| Turn a dataset into a dashboard, or show the result in a video | [CodeDesign](https://github.com/Supersynergy/awesome-codedesign) for charts, maps and diagrams. [AI Video Editing](https://github.com/Supersynergy/awesome-ai-video-editing) for editing, audio cleanup and programmable video pipelines. |
+| Build a prospecting workflow for a sales team | [AI Lead Generation](https://github.com/Supersynergy/awesome-ai-lead-generation) covers discovery, enrichment, verification, scoring and CRM integration. |
+
+<details>
+<summary>Browse all 15 catalog categories or query the data yourself</summary>
+
+- **Building software** · Languages and ecosystems, AI and agents, data and APIs, starter projects.
+- **Running software** · DevOps and cloud, self-hosting and homelabs, security and privacy, supply chain and licenses.
+- **Applying software** · Business and SaaS, research and papers, public sector.
+- **Finding other collections** · Meta-lists, best-of rankings, registries, official catalogs.
+
+For example, to make a reading list for a self-hosted deployment, run this from a checkout of the catalog:
+
+```sh
+jq -r 'select(.cat == "selfhosted") | .url' data/sources.jsonl
+```
+
+[Browse by category](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists#contents) · [Catalog fields and examples](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists/blob/main/CATALOG.md)
+
+</details>
 
 ## Supersynergy Field Notes
 
@@ -21,19 +49,6 @@ I also maintain **Awesome Awesome Best of Repo Lists**, a catalog of **967 entri
 **Synapse Memory** gives a fresh coding session a brief drawn from earlier decisions and bug fixes. The Rust CLI keeps dated notes and their sources in one SQLite file. [Try it with your first note](https://github.com/Supersynergy/synapse-memory#first-steps)
 
 **Superiss** coordinates agents working on the same project. A worker claims a task, runs its acceptance check and attaches the passing result before closing it. The runnable example also shows what happens when a worker tries to close without proof. [Run the example](https://github.com/Supersynergy/superiss#try-the-complete-loop)
-
-## More projects to try
-
-| When you want to… | Start here |
-| --- | --- |
-| Check what is out of date across Homebrew, Cargo, npm and nine other package managers | [PUM](https://github.com/Supersynergy/pum) |
-| See what Claude Code, Codex and Gemini CLI sessions are doing from your Mac menu bar | [AGIMON](https://github.com/Supersynergy/agimon) |
-| Give a coding agent only the skills its current task needs | [Agent Token Saver Skill Router](https://github.com/Supersynergy/agent-token-saver-skill-router) |
-| Scroll a teleprompter at your speaking pace using on-device speech recognition | [Teleprompter](https://github.com/Supersynergy/teleprompter) |
-
-## Field guides
-
-I keep focused guides alongside the main catalog. For a coding or research workflow, start with [Awesome AI Agents](https://github.com/Supersynergy/awesome-ai-agents-2026), then browse [Awesome Skills](https://github.com/Supersynergy/awesome-skills) for a reusable capability. For a video workflow, [Awesome AI Video Editing](https://github.com/Supersynergy/awesome-ai-video-editing) covers editing tools, audio finishing and CLI pipelines an agent can run.
 
 ## Get in touch
 
