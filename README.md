@@ -6,6 +6,10 @@ I build local-first tools in Rust, Python and TypeScript. My work on coding agen
 
 I also maintain **Awesome Awesome Best of Repo Lists**, a catalog of **967 entries across 15 categories**, with reading guides in **18 languages**. Browse the lists by subject or query the JSONL dataset for a shortlist of your own. [Explore the catalog](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists) · [Query the data](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists/blob/main/CATALOG.md)
 
+## Supersynergy Field Notes
+
+[001 · Why a large PDF could disappear from an Unsloth Studio chat](https://github.com/Supersynergy/Supersynergy/blob/main/field-notes/001-unsloth-attachments.md) — Two nearly identical requests meant different things. A 50,000-token test file shows where passage retrieval went missing.
+
 ## Selected work
 
 - Kept large attachments usable in Unsloth Studio. When an attachment exceeded the model’s context budget, Auto mode could silently drop the entire document. My merged fix retrieves relevant passages and preserves the user’s explicit Off setting. [Unsloth PR #9630](https://github.com/unslothai/unsloth/pull/9630)
