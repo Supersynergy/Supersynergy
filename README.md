@@ -1,8 +1,22 @@
-<p align="center"><img src="assets/supersynergy-lockup.png" width="360" alt="SuperSynergy"></p>
+<img src="https://raw.githubusercontent.com/Supersynergy/Supersynergy/main/assets/supersynergy-mark.png" align="right" width="72" alt="">
 
-# Maxim · AI Systems & Developer Tools Engineer
+# Maxim · AI Systems Engineer
 
-I build local-first tools for coding agents. I also curate open-source software for people choosing what to build with. My collections answer questions I run into at work, from picking a model that fits a laptop to deciding how to test a faster database engine.
+**I find where engineering workflows break down and build the tools to fix them.** My focus is coding agents. I trace a task from the first command to the passing check, looking for wasted work, missing context and failures a green status can hide.
+
+[Field notes](#field-notes) · [Open-source tool guides](#find-a-tool-for-the-job) · [Get in touch](#get-in-touch)
+
+## Field notes
+
+**002 · [When less context costs more](https://github.com/Supersynergy/Supersynergy/blob/main/field-notes/002-when-less-context-costs-more.md)**
+
+One Codex setup, three tasks. A large Git diff used **42% fewer tokens**. A process table used **32% more**. The command trace shows where I’d look next.
+
+**001 · [Why a large PDF could disappear from an Unsloth Studio chat](https://github.com/Supersynergy/Supersynergy/blob/main/field-notes/001-unsloth-attachments.md)**
+
+The chat returned a complete answer even when the model never saw the attachment. I traced the missing passages to the retrieval fallback. [Merged fix](https://github.com/unslothai/unsloth/pull/9630)
+
+I also contribute to **Moli**, a Rust browser used for automation. My merged fixes include a debugger reconnect race and missing events across redirects. [Reconnect fix](https://github.com/lexmount/moli/pull/2661) · [Redirect handling](https://github.com/lexmount/moli/pull/2663)
 
 ## Find a tool for the job
 
@@ -34,16 +48,6 @@ jq -r 'select(.cat == "selfhosted") | .url' data/sources.jsonl
 
 </details>
 
-## Supersynergy Field Notes
-
-[001 · Why a large PDF could disappear from an Unsloth Studio chat](https://github.com/Supersynergy/Supersynergy/blob/main/field-notes/001-unsloth-attachments.md) — Two nearly identical requests meant different things. A 50,000-token test file shows where passage retrieval went missing.
-
-## Selected work
-
-- Kept large attachments usable in Unsloth Studio. When an attachment exceeded the model’s context budget, Auto mode could silently drop the entire document. My merged fix retrieves relevant passages and preserves the user’s explicit Off setting. [Unsloth PR #9630](https://github.com/unslothai/unsloth/pull/9630)
-- Measured the token cost of a leaner Codex workflow. I built Agent Token Saver to trim repeated context and noisy tool output. Across three tasks, the provider reported 90,364 tokens with the tool versus 112,488 at baseline (**19.67% fewer**). All three task checks passed. Each arm ran once, and one task used more tokens. [Benchmark and per-task results](https://github.com/Supersynergy/agent-token-saver#benchmarks)
-- Improved browser automation in Moli. Seven of my changes landed in this Rust browser. They include keeping the page loading after a startup script throws, fixing a debugger reconnect race, and reporting requests across redirects. [Script recovery](https://github.com/lexmount/moli/pull/1177) · [Reconnect fix](https://github.com/lexmount/moli/pull/2661) · [Redirect handling](https://github.com/lexmount/moli/pull/2663)
-
 ## Local-first agent infrastructure
 
 **Synapse Memory** gives a fresh coding session a brief drawn from earlier decisions and bug fixes. The Rust CLI keeps dated notes and their sources in one SQLite file. [Try it with your first note](https://github.com/Supersynergy/synapse-memory#first-steps)
@@ -52,4 +56,4 @@ jq -r 'select(.cat == "selfhosted") | .url' data/sources.jsonl
 
 ## Get in touch
 
-For engineering roles or collaborations in AI infrastructure, developer tooling or local-first software, [start a conversation on my profile repository](https://github.com/Supersynergy/Supersynergy/issues/new). This is public, so a role link and a way for me to reply are enough.
+For engineering roles or collaborations in developer productivity, AI systems or workflow optimization, [start a conversation on my profile repository](https://github.com/Supersynergy/Supersynergy/issues/new). This is public, so a role link and a way for me to reply are enough.
