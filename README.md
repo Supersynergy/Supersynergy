@@ -12,7 +12,9 @@
 
 I build small tools for people who code with an AI assistant.
 
-They cut what the assistant costs per task, give it a memory that survives between sessions, let you watch several of them at once, and catch the kind of bug a linter walks straight past. Everything runs on your own machine, on your own files. Nothing gets uploaded.
+They cut what the assistant costs per task, give it a memory that survives between sessions, let you watch several of them at once, and catch the kind of bug a linter walks straight past. The tools focus on local files and workflows. Check each project’s privacy notes for optional network services and integrations.
+
+[🧰 Developer tools](#featured) · [📚 Resource libraries](#resource-libraries) · [🛠️ Stack](#stack) · [More projects](#more)
 
 ## Featured
 
@@ -24,6 +26,13 @@ They cut what the assistant costs per task, give it a memory that survives betwe
 | **[pum](https://github.com/Supersynergy/pum)** | Rust | Shows what is out of date across 12 package managers, and never updates anything behind your back ([tap](https://github.com/Supersynergy/homebrew-pum)) |
 | **[mdviewy](https://github.com/Supersynergy/mdviewy)** | Tauri, TS | A quiet, fast Markdown editor that opens your own files and works offline |
 | **[debugmaster](https://github.com/Supersynergy/debugmaster)** | Python | Finds bugs a linter cannot see, like a payment amount taken straight from the request |
+
+## Resource libraries
+
+- [🌟 Awesome Awesome Best of Repo Lists](https://github.com/Supersynergy/awesome-awesome-best-of-repo-lists): the central directory of curated lists and rankings.
+- [🧠 Awesome Skills](https://github.com/Supersynergy/awesome-skills): agent skills, collections and the open skills format.
+- [💬 Awesome Prompts](https://github.com/Supersynergy/awesome-prompts): prompt libraries, guides and cookbooks.
+- [🤖 AI agents](https://github.com/Supersynergy/awesome-ai-agents-2026): agents, frameworks and infrastructure, with dated research.
 
 ## Stack
 
