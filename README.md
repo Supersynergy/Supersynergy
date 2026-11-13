@@ -1,4 +1,6 @@
-<img src="https://raw.githubusercontent.com/Supersynergy/Supersynergy/main/assets/supersynergy-mark.png" align="right" width="72" alt="">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Supersynergy/Supersynergy/main/assets/supersynergy-mark.png" alt="SuperSynergy" width="128">
+</p>
 
 # Maxim · AI Systems Engineer
 
